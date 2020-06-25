@@ -1,0 +1,11 @@
+.buttonIcon {
+  &:hover {
+    &::after {
+      background-color: #3ba147;
+    }
+  }
+
+  &::after {
+    content: "\f232";
+  }
+}

@@ -1,0 +1,43 @@
+html {
+  font-family: "JetBrains Mono", Consolas, sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url("../assets/fonts/jetbrains mono/woff2/JetBrainsMono-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url("../assets/fonts/jetbrains mono/woff2/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5';
+  src: url("../assets/fonts/fontawesome/fa-brands-400.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5';
+  src: url("../assets/fonts/fontawesome/fa-regular-400.ttf") format("truetype");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+h1 {
+  font-size: 2.5rem;
+}

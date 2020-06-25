@@ -1,0 +1,38 @@
+.buttonIcon {
+  position: relative;
+  display: block;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 0 1px black;
+
+  &:hover {
+    &::after {
+      width: 100%;
+      border-right: none;
+    }
+  }
+
+  $backgroundColor: rgba(0, 0, 0, 0.2);
+
+  &::after {
+    font-family: "Font Awesome 5", "Consolas", monospace;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    height: 100%;
+    background-color: $backgroundColor;
+    border-right: 1px solid $backgroundColor;
+    box-shadow: 0 0 0.75px $backgroundColor;
+    transition: all .25s ease-in;
+  }
+}
