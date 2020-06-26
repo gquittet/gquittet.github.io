@@ -1,7 +1,7 @@
 import React from "react"
 
-export function ProfilePicture({ image, size }) {
+export function ProfilePicture({ image, size, className }) {
   return <>
-    <img src={image} width={size} height={size} alt="Profile picture"/>
+    <img className={className} src={image} width={size} height={size} alt="Profile picture"/>
   </>
 }

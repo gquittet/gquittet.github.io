@@ -21,7 +21,9 @@
   $backgroundColor: rgba(0, 0, 0, 0.2);
 
   &::after {
+    //content: "";
     font-family: "Font Awesome 5", "Consolas", monospace;
+    font-size: 1.3em;
     position: absolute;
     top: 0;
     display: flex;

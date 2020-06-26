@@ -12,9 +12,10 @@ import { WhatsappSocialButton } from "../../components/social-button/whatsapp";
 
 export function HomePage() {
   return <>
-    <div className={style.background}/>
     <div className={style.content}>
-      <ProfilePicture image={profilePicture} size="175px"/>
+      <div className={style.background}/>
+      <div className={style.whiteFilter}/>
+      <ProfilePicture image={profilePicture} size="150px"/>
       <Title>Guillaume Quittet</Title>
       <TypedQuote>
         A lovely passionate developer who want to make your ideas to be alive.
