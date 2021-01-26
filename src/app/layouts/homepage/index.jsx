@@ -22,7 +22,7 @@ export function HomePage() {
           <LinkedinSocialButton username="gquittet" />
           <EmailSocialButton email="guillaume.quittet@gmail.com" />
         </div>
-        <footer>Made with ❤ by Guillaume Quittet</footer>
+        <footer>Made with ❤️ by Guillaume Quittet</footer>
       </div>
     </>
   );
