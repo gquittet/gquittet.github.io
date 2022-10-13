@@ -1,5 +1,5 @@
 import React from "react"
-import style from "./style.scss"
+import * as style from "./style.module.scss"
 import TypeIt from "typeit-react";
 
 const typeItOptions = {

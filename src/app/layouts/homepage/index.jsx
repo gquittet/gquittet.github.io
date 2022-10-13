@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./style.scss";
+import * as style from "./style.module.scss";
 import { ProfilePicture } from "../../components/profile-picture";
 import profilePicture from "../../assets/pictures/profile-picture.svg";
 import { TypedQuote } from "../../components/typed-quote";
