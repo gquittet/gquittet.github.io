@@ -20,7 +20,7 @@ export function HomePage() {
         <div className={style.buttonIcons}>
           <GithubSocialButton username="gquittet" />
           <LinkedinSocialButton username="gquittet" />
-          <EmailSocialButton email="guillaume.quittet@gmail.com" />
+          <EmailSocialButton email="contact@v01dsocity.com" />
         </div>
         <footer>Made with ❤️ by Guillaume Quittet</footer>
       </div>
