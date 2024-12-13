@@ -1388,8 +1388,8 @@ packages:
   lmdb@2.5.2:
     resolution: {integrity: sha512-V5V5Xa2Hp9i2XsbDALkBTeHXnBXh/lEmk9p22zdr7jtuOIY9TGhjK6vAvTpOOx9IKU4hJkRWZxn/HsvR1ELLtA==}
 
-  loader-utils@3.2.0:
-    resolution: {integrity: sha512-HVl9ZqccQihZ7JM85dco1MvO9G+ONvxoGa9rkhzFsneGLKSUg1gJf9bWzhRhcvm2qChhWpebQhP44qxjKIUCaQ==}
+  loader-utils@3.3.1:
+    resolution: {integrity: sha512-FMJTLMXfCLMLfJxcX9PFqX5qD88Z5MRGaZCVzfuqeZSPsyiBzs+pahDQjbIWz2QIzPZz0NX9Zy4FX3lmK6YHIg==}
     engines: {node: '>= 12.13.0'}
 
   locate-path@5.0.0:
@@ -3383,7 +3383,7 @@ snapshots:
 
   generic-names@4.0.0:
     dependencies:
-      loader-utils: 3.2.0
+      loader-utils: 3.3.1
 
   get-caller-file@2.0.5: {}
 
@@ -3678,7 +3678,7 @@ snapshots:
       '@lmdb/lmdb-linux-x64': 2.5.2
       '@lmdb/lmdb-win32-x64': 2.5.2
 
-  loader-utils@3.2.0: {}
+  loader-utils@3.3.1: {}
 
   locate-path@5.0.0:
     dependencies:
