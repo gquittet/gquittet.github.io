@@ -1895,8 +1895,8 @@ packages:
   scss-tokenizer@0.4.3:
     resolution: {integrity: sha512-raKLgf1LI5QMQnG+RxHz6oK0sL3x3I4FN2UDLqgLOGO8hodECNnNh5BXn7fAyBxrA8zVzdQizQ6XjNJQ+uBwMw==}
 
-  semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
 
   semver@6.3.0:
@@ -2400,7 +2400,7 @@ snapshots:
       json5: 2.2.3
       msgpackr: 1.11.2
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
 
   '@parcel/css@1.14.0':
     dependencies:
@@ -2458,7 +2458,7 @@ snapshots:
       '@parcel/diagnostic': 2.7.0
       '@parcel/utils': 2.7.0
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
 
   '@parcel/optimizer-css@2.7.0(@parcel/core@2.7.0)':
     dependencies:
@@ -2528,7 +2528,7 @@ snapshots:
       '@parcel/types': 2.7.0(@parcel/core@2.7.0)
       '@parcel/utils': 2.7.0
       '@parcel/workers': 2.7.0(@parcel/core@2.7.0)
-      semver: 5.7.1
+      semver: 5.7.2
 
   '@parcel/packager-css@2.7.0(@parcel/core@2.7.0)':
     dependencies:
@@ -2651,7 +2651,7 @@ snapshots:
       browserslist: 4.21.4
       json5: 2.2.3
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
 
@@ -2676,7 +2676,7 @@ snapshots:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
 
@@ -2701,7 +2701,7 @@ snapshots:
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.10
-      semver: 5.7.1
+      semver: 5.7.2
 
   '@parcel/transformer-json@2.7.0(@parcel/core@2.7.0)':
     dependencies:
@@ -2719,7 +2719,7 @@ snapshots:
       clone: 2.1.2
       nullthrows: 1.1.1
       postcss-value-parser: 4.2.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
 
@@ -2731,7 +2731,7 @@ snapshots:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
 
@@ -2766,7 +2766,7 @@ snapshots:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
 
@@ -3900,7 +3900,7 @@ snapshots:
     dependencies:
       hosted-git-info: 2.8.9
       resolve: 1.22.1
-      semver: 5.7.1
+      semver: 5.7.2
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@3.0.3:
@@ -4260,7 +4260,7 @@ snapshots:
       js-base64: 2.6.4
       source-map: 0.7.4
 
-  semver@5.7.1: {}
+  semver@5.7.2: {}
 
   semver@6.3.0: {}
 
