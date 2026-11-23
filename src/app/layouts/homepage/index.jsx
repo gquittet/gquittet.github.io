@@ -1,7 +1,7 @@
 import React from "react";
 import * as style from "./style.module.scss";
 import { ProfilePicture } from "../../components/profile-picture";
-import profilePicture from "../../assets/pictures/profile-picture.svg";
+const profilePicture = new URL("../../assets/pictures/profile-picture.svg", import.meta.url).href;
 import { TypedQuote } from "../../components/typed-quote";
 import { Title } from "../../components/title";
 import { GithubSocialButton } from "../../components/social-button/github";

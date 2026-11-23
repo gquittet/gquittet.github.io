@@ -1,5 +1,5 @@
-import React from "react"
-import { render } from "react-dom"
-import { HomePage } from "./layouts/homepage"
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { HomePage } from "./layouts/homepage";
 
-render(<HomePage />, document.getElementById("app"));
+createRoot(document.getElementById("app")).render(<HomePage />);
