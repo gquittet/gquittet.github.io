@@ -11,7 +11,7 @@
     "preserve": "rimraf ./dist",
     "serve": "cross-env NODE_ENV=production parcel serve src/index.html --no-source-maps --open",
     "predeploy": "pnpm build",
-    "deploy": "gh-pages -d dist -b master"
+    "deploy": "gh-pages -d dist -b master --cname gqode.be"
   },
   "devDependencies": {
     "@parcel/core": "^2.16.4",
